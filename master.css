@@ -4,8 +4,8 @@ body {
 
 header {
   overflow:hidden;
-  background-color: #89FF7A;
-  color: #FF31B7;
+  background-color: #000;
+  color: #FFF;
   margin-bottom: 15px;
   margin-top: 15px;
   font-weight: 22px;
@@ -32,9 +32,7 @@ header li a {
   padding: 8px;
 }
 
-header .active {
-  background-color: #5FA955;
-}
+
 
 header li {
   display:inline;
