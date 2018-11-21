@@ -13,16 +13,22 @@
 </head>
 
 <body>
+  <script>
+    $('.carousel').carousel({
+      interval: 2000
+    })
+  </script>
+
   <header>
 
     <h2>AJ Smart</h2>
 
     <ul class="nav justify-content-end">
       <li class="nav-item">
-        <a class="nav-link disabled" href="index.html">Home</a>
+        <a class="nav-link" href="index.html">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="projects.html">Projects</a>
+        <a class="nav-link disabled" href="projects.html">Projects</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="cv.html">CV</a>
@@ -38,53 +44,96 @@
     <br>
 
     <div class="introduction">
-      <h2>Welcome</h2>
-      <p>My name is AJ, a Scottish computing student studying at the university of Dundee. </p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+      <h2>Here You'll Find All Of My Projects!</h2>
+      <p>I dabble a little in photography - those are included here too - but as I am a computing student I have a few programs I've coded for (as well as a few fakes) that you'll find here :D
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
         aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
 
     <br>
 
-    <a href="projects.html">
+    <a href="https://www.instagram.com/aj.smart.png">
       <div class="card">
-        <img class="card-img-top" src="pics/borrowed_.jpg" alt="Dummy Image" style="width:100%">
-        <div class="card-body">
-          <h4 class="card-title"><b>Projects</b></h4>
+        <div id="carouselImageSlides" class="carousel slide" data-ride="carousel">
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          <ol class="carousel-indicators">
+            <li data-target="#carouselImageSlides" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselImageSlides" data-slide-to="1"></li>
+            <li data-target="#carouselImageSlides" data-slide-to="2"></li>
+            <li data-target="#carouselImageSlides" data-slide-to="3"></li>
+            <li data-target="#carouselImageSlides" data-slide-to="4"></li>
+            <li data-target="#carouselImageSlides" data-slide-to="5"></li>
+            <li data-target="#carouselImageSlides" data-slide-to="6"></li>
+            <li data-target="#carouselImageSlides" data-slide-to="7"></li>
+          </ol>
+
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="pics/wall.jpg" alt="East Side Gallery" style="width:100%">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="pics/tree.jpg" alt="Trees at the Chinese garden in " Garten der welt" in Berlin" style="width:100%">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="pics/plane2.jpg" alt="Plane wing overlooking Berlin" style="width:100%">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="pics/pretty_josi.jpg" alt="Josi lookin perrty" style="width:100%">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="pics/memorial.jpg" alt="Memorial to the murdered Jews of Europe in Berlin" style="width:100%">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="pics/aesthetics.jpg" alt="Sophie looking aesthetic in front of some pillars and stuff in Potsdam" style="width:100%">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="pics/pillar.jpg" alt="Lauren hugging a pillar in Potsdam" style="width:100%">
+            </div>
+          </div>
+        </div>
+
+        <div class="card-body">
+          <h4 class="card-title"><b>Photography</b></h4>
+
+          <p>Most of my pictures (personal ones included!) you'll find on my instagram!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             Duis
             aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
       </div>
     </a>
 
-    <a href="cv.html">
+    <a href="https://github.com/ajsmart121?tab=repositories">
       <div class="card">
-        <img class="card-img-top" src="pics/fish.jpg" alt="Dummy Image" style="width:100%">
+        <img class="card-img-top" src="pics/reversi.jpg" alt="Dummy Image" style="width:100%">
         <div class="card-body">
-          <h4 class="card-title"><b>CV</b></h4>
+          <h4 class="card-title"><b>Reversi - Java</b></h4>
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          <p>{no repository yet} Coded in java it's our final (unfinished) project for the first java module. Reversi sucks as a game though... Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             Duis
             aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
       </div>
     </a>
 
-    <a href="contact.html">
+    <a href="https://github.com/ajsmart121/ajsmart121.github.io">
       <div class="card">
-        <img class="card-img-top" src="pics/leggy.jpg" alt="Dummy Image" style="width:100%">
+        <img class="card-img-top" src="pics/thiswebsite.jpg" alt="Dummy Image" style="width:100%">
         <div class="card-body">
-          <h4 class="card-title"><b>Find me</b></h4>
+          <h4 class="card-title"><b>Personal Website - HTML & CSS</b></h4>
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          <p>Coded in HTML & CSS it's our final web dev project! Right here is where you can find the code for such a wonderful looking website. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             Duis
             aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
       </div>
     </a>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </main>
 
   <footer>
