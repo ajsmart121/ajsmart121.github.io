@@ -1,72 +1,94 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="master.css">
-    <title>AJ's not-so-cool Website</title>
-    <style>
-      @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-    </style>
-  </head>
 
-  <body>
-    <header>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+  <title>AJ's not-so-cool Website</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+  </style>
+</head>
 
-      <h1>AJ Smart</h1>
+<body>
+  <header>
 
-      <nav>
-        <ul>
-          <ul class="nav">
-            <li class="nav-item">
-            <a class="nav-link" href="website.html">Home Page</a>
-            </li>
+    <h2>AJ Smart</h2>
 
-            <li class="nav-item">
-            <a class="nav-link" href="projects.html">Project Page</a>
-            </li>
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link disabled" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="projects.html">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="cv.html">CV</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </header>
 
-            <li class="nav-item">
-            <a class="nav-link" href="cv.html">CV Page</a>
-            </li>
+  <main>
 
-            <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact Me</a>
-            </li>
-          </ul>
-        </ul>
-      </nav>
-    </header>
+    <br>
 
-    <main>
+    <div class="introduction">
+      <h2>Welcome</h2>
+      <p>My name is AJ, a Scottish computing student studying at the university of Dundee. </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
 
-      <div class="container">
-        <div class="row">
+    <br>
 
-          <div class="col">
-            <img src="https://picsum.photos/300/200/?random" alt="Dummy Image">
-            <h3>Projects:</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
+    <a href="projects.html">
+      <div class="card">
+        <img class="card-img-top" src="pics/borrowed_.jpg" alt="Dummy Image" style="width:100%">
+        <div class="card-body">
+          <h4 class="card-title"><b>Projects</b></h4>
 
-          <div class="col">
-            <img src="https://picsum.photos/300/200/?random" alt="Dummy Image">
-            <h3>CV:</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-
-          <div class="col">
-            <img src="https://picsum.photos/300/200/?random" alt="Dummy Image">
-            <h3>Contact:</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
       </div>
-    </main>
+    </a>
 
-    <footer>
+    <a href="cv.html">
+      <div class="card">
+        <img class="card-img-top" src="pics/fish.jpg" alt="Dummy Image" style="width:100%">
+        <div class="card-body">
+          <h4 class="card-title"><b>CV</b></h4>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+    </a>
+
+    <a href="contact.html">
+      <div class="card">
+        <img class="card-img-top" src="pics/leggy.jpg" alt="Dummy Image" style="width:100%">
+        <div class="card-body">
+          <h4 class="card-title"><b>Find me</b></h4>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+    </a>
+
+  </main>
+
+  <footer>
+    <div class="followlinks">
       <ul>
         <li>Follow Me:</li>
         <ul>
@@ -76,7 +98,14 @@
           </li>
         </ul>
       </ul>
-    </footer>
+    </div>
 
-  </body>
+    <div class="copyrights">
+      <p><i class="far fa-copyright"></i> 2018 AJ Smart</p>
+      <p><i class="fas fa-camera"></i> Are (mostly) mine</p>
+    </div>
+  </footer>
+
+</body>
+
 </html>
