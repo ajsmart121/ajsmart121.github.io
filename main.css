@@ -80,14 +80,15 @@ main {
   }
 }
 
+/*
+---if the user hovers over the card then it creates a shadow and removes the filter---
+*/
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   filter: none;
   transition-duration: 2;
 }
-/*
----if the user hovers over the card then it creates a shadow and removes the filter---
-*/
+
 
 .container {
   padding: 10px 30px;
