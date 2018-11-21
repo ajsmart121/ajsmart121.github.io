@@ -1,9 +1,17 @@
+/*
+===general style that has to be used throughout the entire website (font, bakground)===
+*/
 body {
   font-family: 'Open Sans', sans-serif;
-  background-image: url("pics/blurredsteps2.jpg");
-  background-size: 100%
+  background-image: url("pics/blurredsteps1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
+
+/*
+  ===Style for everything within the header tags (the nav bar!)===
+*/
 header {
   background-color: darkslategray;
   color: honeydew;
@@ -33,6 +41,9 @@ header li a {
   padding: 8px;
 }
 
+/*
+  ===Style for everything within the main tags (content on the page)===
+*/
 main {
   color: black;
   font-weight: 18px;
@@ -62,17 +73,31 @@ main {
   object-fit: cover;
 }
 
+/* If the screen is smaller than 600px then the cards aren't transparent! */
+@media screen and (max-width: 600px) {
+ .card {
+    filter: opacity(1);
+  }
+}
+
+/*
+---if the user hovers over the card then it creates a shadow and removes the filter---
+*/
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   filter: none;
   transition-duration: 2;
 }
 
+
 .container {
   padding: 10px 30px;
   margin: 0 12px;
 }
 
+/*
+  ===Style for everything within the footer tags (content within the footer.)===
+*/
 footer {
     background-color: darkslategray;
     color: honeydew;
