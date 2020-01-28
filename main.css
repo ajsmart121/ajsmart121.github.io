@@ -1,5 +1,5 @@
 /*
-===general style that has to be used throughout the entire website (font, bakground)===
+===general style that has to be used throughout the entire website (font, background)===
 */
 body {
   font-family: 'Open Sans', sans-serif;
@@ -56,6 +56,7 @@ main {
   background-color: mintcream;
   filter: opacity(.7);
   border-radius: 25px;
+  padding: 10px;
 }
 
 .card {
@@ -63,7 +64,7 @@ main {
   transition: 0.3s;
   width: 75%;
   margin: 30px auto;
-  filter: opacity(.2);
+  filter: opacity(.6);
   transition-duration: 2;
   color: dimgray;
 }
